@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./images/Wait, Alena Aenami (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#home">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABfElEQVRoge2YvUrDUBiGH2t18QdX8Q7ExUsQF4tjcRTcHL0BB2/BoQji4jWIiIN7hw5eQm3qrOggtmgccg6NtfmpOTlfCt8DLwROcvK8hHMSAoqilEUTCEyawi5TcwJ8AaHJN3AmapSTeaDFSHw8V8CCmF0GS8ANyfI298CqkGMi60CHbHmbjrkmzj7QJ1ozDS/Whk2gS355m6651hLExnqe3NkBXqYUj+cN2DNzjY+VzgHwUUDe5hM49F3glGhrLCof32a9FKgDFw7F0+KcZeDWk7zzAhvAo0f50NzTCVvAk2f5EHgGtovK7wKvAvI27xR4qR0BA0F5myFwPI34HNGXo8tt0kXOjVsqdeCyArJJuQYWk+RXgLsKSGblAVibVKBdAbm8aVvpWqzAcFKrijKwB5mLgqixJKmOtbTBWUALSFN3OFee9RTHydqa+SegBaTRAtJoAWm0gDRaQJo8Bfo5zgn+ce+y5v1Dg9//7sfTY/SLvArzKoqieOQH71zlbvWCooUAAAAASUVORK5CYII=">
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge3Xu24TQRSA4Y+AuTSBAgpegAaJCImKRwAJYgmeBSpEKAI8AyUXUSKeIaIBKdCASUJBAyUQA5UJFLsrRUviHWbHOxbaXzrVztn5jz1zfExPT09KBriOJxjhexkjPC6fDbLZNTDEJn43xCaWMznuyQLuaxavx90yNzsx8ruLyMpQvHwVVzu3LhkIO/NN8QGHO3ZH0VHayldxLVaizSUatsitk6UrbUj3DYw6dgfjSNm9YhwrMRd9GDuxiW0K+NQiN9m72hTwqkVunZexiW0KeNYit87zhO8KZiBNJ3ov44S6HCA4LXZwpXPrGvfEF7CawfcvFhRT5b9+8qvmp42jmCpD7sSGOTg2+zFQDGaP8E7xCzvGWzwsn83tX8qenv+ZY1jBFibSjdH1mJR73C73TCa/NkPp/WINR1MUsJJBvopbKQrYyljARpPcgYACJjgYsG4W/MKhaQtCZpGc80rj3iFy3xKIxPKlaUFIAesJRGJp3DukgKcJRGJ5kOIlR+TpRCMJm8dZxV3oSn6MpVTyFZfxswP5H7iUWr5iyWyP00dcmJV8xSLuYDuh+LZiZFmctfxuTuGmotXFiq/jBk7GSoSMEiGcwUWcxzmcxgkcL59/VTSBz3iD13ghYNbp6emZzh9Gk/MSZ1abTgAAAABJRU5ErkJggg==">
+                </a>
+            </li>
+            <li>
+                <a href="#pro"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAArElEQVRIie3SOwrCQBSF4U9b4zJ0ARa6GjvrlIK6El1CGneliO5ASGymEE0ygaSImB8uDPcw58zjMtABKYqK2rY1XyOvCcixqTMYva2Ltqcp8x53bPrFfwTskeAQ6UWpmpQk6NNI77Ma3yANhmmkV0ovxvSMR0n/HrTGlL3jLmhzZLiFyjAL2r5ib6OACxY1h1rg2iagwBNHLDEJtcIpaLVT1ItPbsXvBwxEeQHq31H38tTq3QAAAABJRU5ErkJggg=="></a>
+            </li>
+            <li>
+                <a href="#blog"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAByElEQVRoge2ZUU4CMRCGP0SIJHoLvB5vGvFBJREO4Bn0APqsb3gGjSzGM4gJkKzBh11MIdtuu50CCf2SeSnp3xnaYaYUIpHI3tECekACpMDC09Jc6ybXDu78UMBpnQ2Bo5AB9AI6v7SrkAEkykJnQENAswGcK7ofAppa1DPfFNRtKrqpy8Sa40ILj7lBtA+EFh8AU+zP+RToC63thOrEkhowwd75pU0stEuR2IEFcAfMHObM8jnexBzYNjGJiUnsR0zibWMTwCHQBd7XxnVne05xgg7yz3TzVN6Ai3xtLxrAi2FRnX0XaFVJ9Gc8O161zbW1OXBboNXHvAM6O/MJYOywUBe7FrsJXDrojnwCcLnzHjvonjjoGu8HRUmsVtW6g1Md7Heg46Bbx1C9139va2QJ6PJtbpIfst37Z30HqlTVTVFYvcsqnlNfEhCtn3tRiYtIgHZuSYBxa6oG8EhWI8bAU4BxMUzFpQ2csvpnl9S4qU9aISYxWzj3KhIB7Ny5V7FttkKce5EcSHHrh0Lwi+FiU3aEvmR9qcSn6cOyAB4EHanKvc/kFvCK+y1KykSenFrANVnySTzq2VxgRmRPTUHfyyKRyA7wB4gQv8Kl40mUAAAAAElFTkSuQmCC"></a>
+            </li>
+            <li>
+                <a href="#contact"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB6UlEQVRoge3YP2sUQRgG8J9GE5PY2qRKY2drI8ROCfgR0lnYaSOxUDCab2BrI4h+hPQWinb2eog2CkIaUcR48Sx21qzHZXf2du42p/vAy+6wM+/zPPOP2aFDhw7/HJawjR76GETEN7zCNcxNX/IBlvBSnOjD4hnOTFt4ju0IgTHxDuemrB3ZtElhYIAvuDJd+fFzPjb6uDlNAynFp+yEHu5jcRYNFONFlYm2BcbEVlHwsREGjjp6OJsXZtHAPk7khVk0QEH38TZVpEBTA9+xJuuRcWIt5EiGOrvB6/D8ivUxuNZD22Ku2EhiYBmPwvseNmqI3whtBiHHchsGyKbBvVD+hc0I8ddlO8kADxwsyFYM5LhxiKgihs3eSsSdLElxWjzGycK3OTwM337iamLuZEmKC3MHqyF2VC/4I2EAzuPziPq7uDBh7jRJsCKbRp/wMbyvVLQZi7vJUWLUQm2Csbj/+6NE62hiYD6ZChbGbdjEwMUGbSeWq85O8B6XNBuJeVzGh5rcf9D90LSNzkDbGDawX1L3Nk7jzuTkRHGUaSy93M13m4WSOk0jhuNNUfDwCDwtMbcXnj/KeqAhYjielCVYlN0/Vp0+JzUCVRzPcarMQG5iC2/9fd3eloF+0HI3RnyHDh06dKiF38eUQHQS8z0DAAAAAElFTkSuQmCC"></a>
+            </li>
+        </ul>
+    </nav>
+    <section id="home">
+       <div >
+        <h2 >Hello, I am  <img src="https://media.giphy.com/media/w1OBpBd7kJqHrJnJ13/giphy.gif"  style="width: 50px;"alt=""> </h2>
+        <span>Donia Hussien</span>
+        <p>I'm a Web Developer, I love to create beautiful and functional websites</p>
+       </div>
+
+    </section>
+    <header id="about">
+        <section>
+            <div id="img"   data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500">
+               <img src="./images/girl wallpaper _ Realistic art, Surreal art, Digital portrait art.jpeg" alt=""> 
+            </div>
+        <div  data-aos="fade-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1500">
+            <h1 >About Me</h1>
+            <h2>I front-end developer. I can provide a clean code and pixel perfect design, I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</h2>
+        </div>
+        </section>
+    </header>
+    <article id="pro" >
+        <h1 >Projects </h1>
+        <section >
+            <div class="hover" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500" > 
+                <img src="./images/Screenshot (425).png" alt="">
+                <div class="overlay">
+                    <div class="text">Landing Page of Food Hut</div>
+                  </div>
+            </div>
+            <div class="hover" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500" > 
+                <img src="./images/Screenshot (426).png" alt="">
+                <div class="overlay">
+                    <div class="text">Blood Bank Manegment System</div>
+                  </div>
+            </div>
+            <div class="hover "data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500" > 
+                <img src="./images/Screenshot (427).png" alt="">
+                <div class="overlay">
+                    <div class="text">Desert Filter</div>
+                  </div>
+            </div>
+            <div class="hover"data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500" > 
+                <img src="./images/Screenshot (356).png" alt="">
+                <div class="overlay">
+                    <div class="text">CRUD(Contact List)</div>
+                  </div>
+            </div>
+            <div class="hover "  data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500"> 
+                <img src="./images/Screenshot (429).png" alt="">
+                <div class="overlay">
+                    <div class="text">Three Buttons Events</div>
+                  </div>
+            </div>
+            <div class="hover" 
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500"> 
+                <img src="./images/Screenshot (430).png" alt="">
+                <div class="overlay" >
+                    <div class="text">Project With Sass</div>
+                  </div>
+            </div>
+        </section>
+    </article>
+    <aside id="blog">
+        <div class="border"> <h1>Last News </h1></div>
+           
+        <section>
+             <div id="divs"  data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000">
+                <img src="./images/pexels-tranmautritam-69432.jpg" alt="">  
+                <div id="head"> 
+                    <h3>20 june 2021</h3>
+                <h4>Stay informed about the latest cameras and money of that</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <button> Reed More</button>
+                </div>            
+            </div>
+            <div id="divs"  data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <img src="./images/pexels-pixabay-163143.jpg" alt="">  
+                <div id="head"> 
+                    <h3>20 june 2021</h3>
+                <h4>Stay informed about the latest cameras and money of that</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <button> Reed More</button>
+                </div>            
+            </div>
+            <div id="divs" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <img src="./images/pexels-alex-fu-1188751.jpg" alt="">  
+                <div id="head"> 
+                    <h3>20 june 2021</h3>
+                <h4>Stay informed about the latest cameras and money of that</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <button> Reed More</button>
+                </div>            
+            </div>
+            <div id="divs" data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <img src="./images/pexels-pixabay-163143.jpg" alt="">  
+                <div id="head"> 
+                    <h3>20 june 2021</h3>
+                <h4>Stay informed about the latest cameras and money of that</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <button> Reed More</button>
+                </div>            
+            </div>
+        </section>
+    <aside>
+        <footer id="contact">
+            <section id="end">
+               <div style="margin-right: 150px;">
+                <a href="#"><img src="./images/icons8-important-mail-48.png "alt="" style="width:35px ;display: inline-block; padding-right: 10px;"> 
+                    <h5 style="display: inline-block;margin: 0;
+                    position: absolute;
+                    bottom:370px;
+                    ">d@gmail.com</h5>
+                </a>
+                <a href="#"><img src="./images/icons8-romantic-places-48.png "alt=""style="width:35px;padding-right: 10px;"> 
+                    <h5 style="display: inline-block;margin: 0;
+                    position: absolute;
+                    bottom:260px;">Mansoura,Egypt</h5>
+                </a>
+                <a href="#"><img src="./images/icons8-whatsapp-48.png "alt="" style="width:35px;padding-right: 10px;"> 
+                    <h5 style="display: inline-block;margin: 0;
+                    position: absolute;
+                    bottom:160px;
+                    ">+52455954</h5>
+                </a>
+                
+               </div>
+                <div>
+                    <h1>Contact Us</h1>
+                    <input type="text" name=""placeholder="Name" id="">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="Message" id="" cols="30" rows="10">Enter Message</textarea>
+                    <input type="submit" value="Send" id="send">
+                </div>
+            </section>
+        </footer>      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="aos.js"></script>
+        <script> AOS.init();</script>
+</body>
+</html>
